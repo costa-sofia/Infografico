@@ -1,0 +1,72 @@
+body
+{
+    background-color: black;
+}
+/* habilidades start */
+#habilidades
+{
+  display: grid;
+  justify-content: center;
+ 
+}
+#line
+{
+  margin-top: 1.5vh;
+  width: 2vh;
+  background-color: #9F55FF;
+  height: 100%;
+  z-index: -100;
+  position: relative;
+  justify-self: center;
+  
+}
+.bola
+{
+  background-color: #9F55FF;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.4vh;
+}
+#bolafim
+{
+  position: absolute;
+  top: 99%;
+  background-color: #9F55FF;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  left: -1.4vh;
+}
+.habdescription
+{
+  width: 60vh;
+}
+.habdescriptionright
+{
+  width: 60vh;
+  margin-left: 4vh;
+}
+.habdescription h1
+{
+  margin-left: 4vh;
+}
+.habdescriptionleft
+{
+  justify-self: flex-end;
+  text-align: right;
+  width:60vh;
+  margin-right: 4vh;
+}
+.habimg
+{
+  fill: #9F55FF;
+ 
+}
+#iconchato
+{
+  margin-left: 4vh;
+
+}
+/* habilidades end */

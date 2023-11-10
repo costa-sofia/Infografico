@@ -1,43 +1,65 @@
 function showDivOrange() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#ff4715";
+    const titulo = document.getElementById("title")
+    titulo.scrollIntoView();
  }
  function showDivYellow() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = " #d0bd1c";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivGreen() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#76ff2e";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivGreenish() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#00ff66";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivCyan() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#039494";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivBlue() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#0237ff";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivPurple() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#4300ff";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivPinke() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#d600f9";
+    const titulo = document.getElementById("title")
+titulo.scrollIntoView();
  }
  function showDivRosao() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#ff0047";
+    const titulo = document.getElementById("title")
+   titulo.scrollIntoView();
  }
  function showDivRosaceo() {
     document.getElementById('info').style.display = "block";
     document.getElementById('info').style.background = "#ff0042";
+    const titulo = document.getElementById("title")
+    titulo.scrollIntoView();
  }
+
+
 
 
 

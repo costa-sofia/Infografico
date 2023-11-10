@@ -1,6 +1,7 @@
 body
 {
     background-color: black;
+    margin: 0;
 }
 /* habilidades start */
 #habilidades
@@ -26,11 +27,10 @@ body
         rgba(251, 7, 217, 1) 90%,
         rgba(255, 0, 0, 1) 100%);
 
-  height: 100px;
+  height: 91vh; 
   z-index: -100;
   position: relative;
   justify-self: center;
-  
 }
 .bola
 {
@@ -41,44 +41,44 @@ body
   position: absolute;
   left: -1.4vh;
 }
-#bolafim
+#bola1
 {
-  position: absolute;
-  top: 99%;
-  background-color: #9F55FF;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  left: -1.4vh;
+  top: -1vh
 }
-.habdescription
+#bola2
 {
-  width: 60vh;
+  top: 11vh
 }
-.habdescriptionright
+#bola3
 {
-  width: 60vh;
-  margin-left: 4vh;
+  top: 21vh
 }
-.habdescription h1
+#bola4
 {
-  margin-left: 4vh;
+  top: 31vh
 }
-.habdescriptionleft
+#bola5
 {
-  justify-self: flex-end;
-  text-align: right;
-  width:60vh;
-  margin-right: 4vh;
+  top: 41vh
 }
-.habimg
+#bola6
 {
-  fill: #9F55FF;
- 
+  top: 51vh
 }
-#iconchato
+#bola7
 {
-  margin-left: 4vh;
-
+  top: 61vh
+}
+#bola8
+{
+  top: 71vh
+}
+#bola9
+{
+  top: 81vh
+}
+#bola10
+{
+  top: 90vh
 }
 /* habilidades end */

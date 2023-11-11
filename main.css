@@ -3,7 +3,7 @@ body
     background-color: black;
     margin: 0;
 }
-/* habilidades start */
+/* line start */
 #habilidades
 {
   display: grid;
@@ -81,4 +81,62 @@ body
 {
   top: 90vh
 }
-/* habilidades end */
+
+.titulo-dicas
+{
+  position: absolute;
+  color: white;
+}
+
+#titulo-dicas1
+{
+  left: 5vh;
+}
+#titulo-dicas2
+{
+  top: 12vh;
+  right: 5vh;
+}
+#titulo-dicas3
+{
+  top: 22vh;
+  left: 5vh;
+}
+#titulo-dicas4
+{
+  top: 32vh;
+  right: 5vh;
+}
+#titulo-dicas5
+{
+  top: 42vh;
+  left: 5vh;
+}
+#titulo-dicas6
+{
+  top: 52vh;
+  right: 5vh;
+}
+#titulo-dicas7
+{
+  top: 62vh;
+  left: 5vh;
+}
+#titulo-dicas8
+{
+  top: 72vh;
+  right: 5vh;
+}
+#titulo-dicas9
+{
+  top: 82vh;
+  left: 5vh;
+}
+#titulo-dicas10
+{
+  top: 91vh;
+  right: 5vh;
+}
+/* line end */
+
+

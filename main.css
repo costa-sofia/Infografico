@@ -295,6 +295,7 @@ a{color: #f1f1f1;}
 
 
 #info{
+  border: solid white 2px;
   z-index: 999999;
   width: 1378px;
   height: 703px;
@@ -321,8 +322,8 @@ a{color: #f1f1f1;}
   float: right;
   margin-left: 20px;
   margin-right:0;
-  width: 90px;
-  height:90px;
+  width: 135px;
+  height: 121px;
   margin-bottom: 30px;
 }
 

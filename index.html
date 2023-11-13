@@ -1,59 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
- <link rel="stylesheet" href="main.css" />
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
- <script
-src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-</script>
- <script src="jquery.js"></script>
-<title>Infografico</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+   </script>
+    <script src="jquery.js"></script>
+   
+</head>
+<body>
     <div class="desktop">
-      <div class="div">
-        <div class="overlap">
-          <div class="overlap-group">
-            <div id="rectangle"></div>
-            <img class="line" src="https://c.animaapp.com/5v2rPzIY/img/line-2.svg" />
-            <div onclick="showDivGreen()" class="rectangle-2"></div>
-            <img class="line-9" src="https://c.animaapp.com/5v2rPzIY/img/line-1.svg" />
-            <div onclick="showDivYellow()" class="rectangle-11"></div>
-            <img class="linha" src="https://c.animaapp.com/5v2rPzIY/img/line-8.svg" />
-            <div onclick="showDivOrange()" class="rectangle-3"></div>
-            <img class="line-2" src="https://c.animaapp.com/5v2rPzIY/img/line-3.svg" />
-            <div onclick="showDivGreenish()" class="rectangle-4"></div>
-            <img class="line-3" src="https://c.animaapp.com/5v2rPzIY/img/line-5.svg" />
-            <div onclick="showDivBlue()" class="rectangle-5"></div>
-            <img class="line-4" src="https://c.animaapp.com/5v2rPzIY/img/line-7.svg" />
-            <div onclick="showDivPinke()" class="rectangle-6"></div>
-            <img class="line-5" src="https://c.animaapp.com/5v2rPzIY/img/line-11.svg" />
-            <div onclick="showDivRosaceo()" class="rectangle-7"></div>
-            <img class="line-6" src="https://c.animaapp.com/5v2rPzIY/img/line-4.svg" />
-            <div onclick="showDivCyan()" class="rectangle-8"></div>
-            <img class="line-7" src="https://c.animaapp.com/5v2rPzIY/img/line-6.svg" />
-            <div onclick="showDivPurple()" class="rectangle-9"></div>
-            <img class="line-8" src="https://c.animaapp.com/5v2rPzIY/img/line-10.svg" />
-            <div onclick="showDivRosao()" class="rectangle-10"></div>
-          </div>
-        </div>
-        <div class="text-wrapper">Infografico</div>
-
-        <div id="info">
-            <h1 id="title">Titulo</h1>
-            <div class="container darker">
-                <img src="piggy.png" alt="Avatar" class="right" >
-                <h3>Piggy</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh felis, sagittis non ultrices ac, convallis sit amet lorem. Quisque sit amet nulla urna. Phasellus id ultricies orci. Pellentesque sollicitudin, ex consectetur sollicitudin eleifend, risus ex lacinia dolor, ut gravida ex est non mauris. <span> (imagina o porquinho dando conselho aqui)</span></p>
+        <div class="div">
+          <div class="overlap">
+            <div class="overlap-group">
+              <div class="overlap-group-2">
+                <div class="ellipse"></div>
+                <div class="ellipse-2"><a>TITULO INFOGRAFICO</a> </div>
+                <div id="linha"></div>
+                <div id="linha-2"></div>
+                <div id="linha-3"></div>
+                <div onclick="showDivRed()" class="bola"></div>
+                <div id="linha-4"></div>
+                <div id="linha-5"></div>
+                <div id="linha-6"></div>
+                <div onclick="showDivRed()" class="bola-2"></div>
               </div>
-              <p id="infotxt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis neque eu nisi eleifend ullamcorper. Donec luctus convallis urna, eu dignissim velit vestibulum at. Nulla facilisi. Donec cursus mi vitae mi rhoncus tempor. Pellentesque sem ligula, cursus vel bibendum nec, sodales maximus lacus. Aliquam non ante rhoncus, dignissim ipsum eu, rutrum massa. Proin aliquam semper nunc, vel elementum dui mattis ut.</p>
-                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
-
+              <div onclick="showDivOrange()"  class="bola-3"></div>
+              <div onclick="showDivOrange()" class="bola-4"></div>
+              <div onclick="showDivPurple()" class="bola-5"></div>
+              <div onclick="showDivPurple()" class="bola-6"></div>
+            </div>
+            <div id="linha-7"></div>
+            <div id="linha-8"></div>
+          </div>
+          <div id="linha-9"></div>
+          <div onclick="showDivGreen()" class="bola-7"></div>
+          <div onclick="showDivGreen()" class="bola-8"></div>
+          <div id="linha-10"></div>
+          <div onclick="showDivLean()" class="bola-9"></div>
+          <div onclick="showDivLean()" class="bola-10"></div>
         </div>
       </div>
-    </div>
-    <script src="main.js"></script>
-  </body>
+
+
+
+
+<div  id="info">
+    <h1>Titulo</h1>
+    <div class="container darker">
+        <img src="piggy.png" alt="Avatar" class="right" >
+        <h3>Piggy</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh felis, sagittis non ultrices ac, convallis sit amet lorem. Quisque sit amet nulla urna. Phasellus id ultricies orci. Pellentesque sollicitudin, ex consectetur sollicitudin eleifend, risus ex lacinia dolor, ut gravida ex est non mauris. <span> (imagina o porquinho dando conselho aqui)</span></p>
+      </div>
+      <p id="infotxt">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis neque eu nisi eleifend ullamcorper. Donec luctus convallis urna, eu dignissim velit vestibulum at. Nulla facilisi. Donec cursus mi vitae mi rhoncus tempor. Pellentesque sem ligula, cursus vel bibendum nec, sodales maximus lacus. Aliquam non ante rhoncus, dignissim ipsum eu, rutrum massa. Proin aliquam semper nunc, vel elementum dui mattis ut.</p>
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script src="main.js"></script>
+</body>
 </html>

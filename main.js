@@ -1,65 +1,40 @@
+
 function showDivOrange() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#ff4715";
-    const titulo = document.getElementById("title")
-    titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(255, 154, 0, 1)";
  }
  function showDivYellow() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = " #d0bd1c";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(208, 222, 33, 1)";
  }
  function showDivGreen() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#76ff2e";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(79, 220, 74, 1)";
  }
- function showDivGreenish() {
+ function showDivLean() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#00ff66";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
- }
- function showDivCyan() {
-    document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#039494";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(95, 21, 242, 1)";
  }
  function showDivBlue() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#0237ff";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(28, 127, 238, 1)";
  }
  function showDivPurple() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#4300ff";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(186, 12, 248, 1)";
  }
- function showDivPinke() {
+ function showDivBlueSky() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#d600f9";
-    const titulo = document.getElementById("title")
-titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(47, 201, 226, 1)";
  }
- function showDivRosao() {
+ function showDivBluesao() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#ff0047";
-    const titulo = document.getElementById("title")
-   titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(63, 218, 216, 1)";
  }
- function showDivRosaceo() {
+ function showDivRed() {
     document.getElementById('info').style.display = "block";
-    document.getElementById('info').style.background = "#ff0042";
-    const titulo = document.getElementById("title")
-    titulo.scrollIntoView();
+    document.getElementById('info').style.background = "rgba(255, 0, 0, 1)";
  }
-
-
 
 
 
@@ -91,10 +66,13 @@ new Chart("myChart", {
       text: "Classe social entre jovens de 20-30 anos",
       fontColor: "white"
     },
-    labels: {
-      fontColor: "white",
-      display: true
-    },
+    plugins: { 
+      legend: {
+        labels: {
+         fontColor: "white"
+               },
+            }
+         }
     
   }
 });

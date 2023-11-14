@@ -6,44 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+   </script>
+    <script src="jquery.js"></script>
+   
 </head>
 <body>
+    <div class="desktop">
+        <div class="div">
+          <div class="overlap">
+            <div class="overlap-group">
+              <div class="overlap-group-2">
+                <div class="ellipse"></div>
+                <div class="ellipse-2"><a>TITULO INFOGRAFICO</a> </div>
+                <div id="linha"></div>
+                <div id="linha-2"></div>
+                <div id="linha-3"></div>
+                <div onclick="showDivRed()" class="bola"></div>
+                <div id="linha-4"></div>
+                <div id="linha-5"></div>
+                <div id="linha-6"></div>
+                <div onclick="showDivRed()" class="bola-2"></div>
+              </div>
+              <div onclick="showDivOrange()"  class="bola-3"></div>
+              <div onclick="showDivOrange()" class="bola-4"></div>
+              <div onclick="showDivPurple()" class="bola-5"></div>
+              <div onclick="showDivPurple()" class="bola-6"></div>
+            </div>
+            <div id="linha-7"></div>
+            <div id="linha-8"></div>
+          </div>
+          <div id="linha-9"></div>
+          <div onclick="showDivGreen()" class="bola-7"></div>
+          <div onclick="showDivGreen()" class="bola-8"></div>
+          <div id="linha-10"></div>
+          <div onclick="showDivLean()" class="bola-9"></div>
+          <div onclick="showDivLean()" class="bola-10"></div>
+        </div>
+      </div>
 
-<!-- informacoes line start -->
-<section id="habilidades">
-    <div id="line">
-        <div class="bola" id="bola1" style="background-color: rgba(255, 0, 0, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas1">Exemplo</span>
 
-        <div class="bola" id="bola2" style="background-color: rgba(255, 154, 0, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas2">Exemplo</span>
 
-        <div class="bola" id="bola3" style="background-color: rgba(208, 222, 33, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas3">Exemplo</span>
 
-        <div class="bola" id="bola4" style="background-color: rgba(79, 220, 74, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas4">Exemplo</span>
+<div  id="info">
+    <h1>Titulo</h1>
+    <div class="container darker">
+        <img src="piggy.png" alt="Avatar" class="right" >
+        <h3>Piggy</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh felis, sagittis non ultrices ac, convallis sit amet lorem. Quisque sit amet nulla urna. Phasellus id ultricies orci. Pellentesque sollicitudin, ex consectetur sollicitudin eleifend, risus ex lacinia dolor, ut gravida ex est non mauris. <span> (imagina o porquinho dando conselho aqui)</span></p>
+      </div>
+      <p id="infotxt">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis neque eu nisi eleifend ullamcorper. Donec luctus convallis urna, eu dignissim velit vestibulum at. Nulla facilisi. Donec cursus mi vitae mi rhoncus tempor. Pellentesque sem ligula, cursus vel bibendum nec, sodales maximus lacus. Aliquam non ante rhoncus, dignissim ipsum eu, rutrum massa. Proin aliquam semper nunc, vel elementum dui mattis ut.</p>
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
-        <div class="bola" id="bola5" style="background-color: rgba(63, 218, 216, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas5">Exemplo</span>
-
-        <div class="bola" id="bola6" style="background-color: rgba(47, 201, 226, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas6">Exemplo</span>
-
-        <div class="bola" id="bola7" style="background-color: rgba(28, 127, 238, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas7">Exemplo</span>
-
-        <div class="bola" id="bola8" style="background-color: rgba(95, 21, 242, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas8">Exemplo</span>
-
-        <div class="bola" id="bola9" style="background-color: rgba(186, 12, 248, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas9">Exemplo</span>
-
-        <div class="bola" id="bola10" style="background-color: rgba(255, 0, 0, 1);"></div>
-        <span class="titulo-dicas" id="titulo-dicas10">Exemplo</span>
-    </div>
-</section>
-<!-- informacoes line end -->
-
+<script src="main.js"></script>
 </body>
 </html>

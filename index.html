@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script
    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
@@ -28,9 +31,9 @@
                 <div id="linha-4"></div>
                 <div id="linha-5"></div>
                 <div id="linha-6"></div>
-                <div onclick="showDivRed()" class="bola-2"><a>6</a></div>
+                <div onclick="showDivRed2()" class="bola-2"><a>6</a></div>
               </div>
-              <div onclick="showDivOrange()"  class="bola-3"><a>2</a></div>
+              <div onclick="showDivOrange2()"  class="bola-3"><a>2</a></div>
               <div onclick="showDivOrange()" class="bola-4"><a>10</a></div>
               <div onclick="showDivPurple()" class="bola-5"><a>7</a></div>
               <div onclick="showDivPurple()" class="bola-6"><a>5</a></div>
@@ -39,11 +42,11 @@
             <div id="linha-8"></div>
           </div>
           <div id="linha-9"></div>
-          <div onclick="showDivGreen()" class="bola-7"><a>9</a></div>
+          <div onclick="showDivGreen2()" class="bola-7"><a>9</a></div>
           <div onclick="showDivGreen()" class="bola-8"><a>3</a></div>
           <div id="linha-10"></div>
           <div onclick="showDivLean()" class="bola-9"><a>4</a></div>
-          <div onclick="showDivLean()" class="bola-10"><a>8</a></div>
+          <div onclick="showDivLean2()" class="bola-10"><a>8</a></div>
         </div>
       </div>
 
@@ -56,10 +59,12 @@
     <h3>Piggy</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh felis, sagittis non ultrices ac, convallis sit amet lorem. Quisque sit amet nulla urna. Phasellus id ultricies orci. Pellentesque sollicitudin, ex consectetur sollicitudin eleifend, risus ex lacinia dolor, ut gravida ex est non mauris. <span> (imagina o porquinho dando conselho aqui)</span></p>
   </div>
-    <h1>Titulo</h1>
+    <h1 id="titleInfo">Titulo</h1>
     
       <p id="infotxt">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis neque eu nisi eleifend ullamcorper. Donec luctus convallis urna, eu dignissim velit vestibulum at. Nulla facilisi. Donec cursus mi vitae mi rhoncus tempor. Pellentesque sem ligula, cursus vel bibendum nec, sodales maximus lacus. Aliquam non ante rhoncus, dignissim ipsum eu, rutrum massa. Proin aliquam semper nunc, vel elementum dui mattis ut.</p>
+        <p id="infotxt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis neque eu nisi eleifend ullamcorper. Donec luctus convallis urna, eu dignissim velit vestibulum at. Nulla facilisi.</p>
+       
         <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script src="main.js"></script>

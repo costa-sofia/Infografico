@@ -1,7 +1,7 @@
 
 //fechar o balao de info com o esc e clickando fora
 $(document).ready(function(){
-    let container = $("#info");
+    const container = $("#info");
     $(document).mouseup(function(e){
     
         // checa se o click nao foi no #info
